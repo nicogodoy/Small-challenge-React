@@ -1,4 +1,4 @@
-# Small challengue de React 🚀
+# Small challenge React 🚀
 
 ## Description: In this project, a short React challenge was created that has three routes to which the user can interact.The main objective is to send data through the form, also to show the user data with their properties in a table.
 
