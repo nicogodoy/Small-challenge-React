@@ -20,4 +20,4 @@
 #### sweetalert2-react
 #### global json server 
 
-## That's all, I hope you liked it! ⚡
+## That's all, I hope you liked it! ⚡ 
