@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import TableUser from "./component/tableUser/index.tsx";
+import Form from "./component/form/index.tsx";
+import Home from "./component/home/index.tsx";
+import Navbar from "./component/navbar/index.tsx";
+import { Routes, Route } from "react-router-dom";
+import "./style.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <Navbar />
       </header>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/table" element={<TableUser />} />
+        <Route path="form" element={<Form />} />
+      </Routes>
+    </>
   );
 }
 

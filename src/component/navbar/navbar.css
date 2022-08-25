@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  background: red;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+}
+li {
+  display: flex;
+}
+.link {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: xx-large;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(199, 185, 185);
+}
