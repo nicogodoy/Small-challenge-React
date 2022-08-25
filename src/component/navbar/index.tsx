@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { IoIosHome } from "react-icons/io";
 import { BiUser , BiTable} from "react-icons/bi";
@@ -10,22 +10,22 @@ export function Index() {
       <div className="nav">
         <ul>
           <li>
-            <Link to="/" className="link">
+            <NavLink to="/" className="link">
               <IoIosHome/>
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/form" className="link">
+            <NavLink to="/form"  className="link">
               <BiUser/>
               Form
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/table" className="link">
+            <NavLink to="/table"  className="link">
               <BiTable/>
               Table
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

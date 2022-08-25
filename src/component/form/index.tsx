@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import "./form.css";
 import { IoIosMail, IoIosKey } from "react-icons/io";
-//import SweetAlert from 'sweetalert2-react';
 import swal from 'sweetalert2';
 
 

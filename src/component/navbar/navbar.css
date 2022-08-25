@@ -3,7 +3,8 @@
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 40px;
-  background: red;
+  background: black;
+  
 }
 ul {
   list-style: none;
@@ -17,10 +18,13 @@ li {
 .link {
   display: flex;
   align-items: center;
-  color: black;
+  color: white;
   font-size: xx-large;
   text-decoration: none;
 }
 .link:hover {
-  color: rgb(199, 185, 185);
+  color: rgb(194, 40, 40);
+}
+.link.active {
+  color: rgb(194, 40, 40);
 }
